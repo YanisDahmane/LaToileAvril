@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+}
+
+span {
+  color: green;
+}
+
+.cards {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(61, 47, 69);
+}
+
+h2 {
+  background-color: green;
+}
