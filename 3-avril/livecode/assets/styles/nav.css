@@ -1,0 +1,34 @@
+.nav {
+  max-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid gray;
+  /* 0 c'est pour l'espacement en haut et en bas, et 1rem pour a gauche et a droite */
+}
+
+.nav>img {
+  max-height: 8vh;
+}
+
+.nav>div {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  padding: .5rem;
+  border-radius: 999999px;
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #5b5b5b;
+}
