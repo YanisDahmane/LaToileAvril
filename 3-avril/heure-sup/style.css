@@ -1,0 +1,26 @@
+nav {
+  height: 10vh;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>a {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  gap: 2rem;
+}
+
+nav>a>img {
+  width: 80px;
+  height: auto;
+}
+
+nav>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
