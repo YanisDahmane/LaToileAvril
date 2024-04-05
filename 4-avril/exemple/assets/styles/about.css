@@ -1,0 +1,23 @@
+#about {
+  background-color: antiquewhite;
+  height: 90vh;
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+#about>* {
+  width: 50vw;
+}
+
+#about>.left {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about>.right>img {
+  width: 100%;
+  height: 100%;
+}

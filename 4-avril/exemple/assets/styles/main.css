@@ -1,0 +1,18 @@
+#main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('http://www.spot-web.fr/multimedia/articles/171027_destinationSaintGeorgessouslaneigea768droitemichaelmuraz.jpg');
+  background-size: cover;
+}
+
+#main>h1 {
+  font-size: 6rem;
+}
+
+#main>p {
+  font-size: 4rem;
+}
