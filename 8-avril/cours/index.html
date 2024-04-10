@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framwork pico</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><strong>Acme Corp</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="pico-color-red-600 pico-background-blue-250">Yanis Dahmane</h1>
+      <section id="group">
+        <h2>Group</h2>
+        <form>
+          <fieldset role="group">
+            <input name="email" type="email" placeholder="Enter your email"
+              autocomplete="email">
+            <input type="submit" value="Subscribe">
+          </fieldset>
+        </form>
+      </section>
+      <p>J'ai un <em data-tooltip="Macbook">pc</em></p>
+      <progress value="20" max="100" />
+      <a href="#" aria-current="page">GitHub</a>
+      <a href="#" class="secondary">Secondary</a>
+      <a href="#" class="contrast">Contrast</a>
+      <a href="https://google.fr">
+        <button class="secondary">Button</button>
+      </a>
+
+      <details open>
+        <summary>Accordion 1</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          impedit velit voluptatem animi accusamus quia fuga? Qui beatae, cumque
+          numquam nobis ratione soluta iste, et, consequatur natus dolorem nihil
+          repellendus.</p>
+      </details>
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Planet</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Distance to Sun (AU)</th>
+            <th scope="col">Orbit (days)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Mercury</th>
+            <td>4,880</td>
+            <td>0.39</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <th scope="row">Venus</th>
+            <td>12,104</td>
+            <td>0.72</td>
+            <td>225</td>
+          </tr>
+          <tr>
+            <th scope="row">Earth</th>
+            <td>12,742</td>
+            <td>1.00</td>
+            <td>365</td>
+          </tr>
+          <tr>
+            <th scope="row">Mars</th>
+            <td>6,779</td>
+            <td>1.52</td>
+            <td>687</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Average</th>
+            <td>9,126</td>
+            <td>0.91</td>
+            <td>341</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>

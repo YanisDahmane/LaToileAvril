@@ -1,0 +1,141 @@
+h1 {
+  font-size: 5rem;
+  color: red;
+}
+
+.gif-background {
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenBncHFuNDhza21hcWU5ZWtwMXFnbGVkcmg2cnpwYTNkbXgycjE4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QxSSrQxSKaFECD7ywx/giphy.gif);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.color-rainbow {
+  animation: 100s linear rainbow infinite;
+}
+
+.sky {
+  overflow: hidden;
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  background-image: url(https://cdn.futura-sciences.com/buildsv6/images/wide1920/4/7/3/47343047c5_105832_ciel-bleu-01.jpg);
+}
+
+.sky img {
+  margin: 0;
+  font-size: 9rem;
+  position: absolute;
+  top: 50px;
+  animation: piaf 15s infinite linear;
+}
+
+@keyframes piaf {
+  0% {
+    left: 100%;
+    top: 50px;
+    transform: scaleX(-1);
+  }
+
+  20% {
+    top: 60px;
+  }
+
+  25% {
+    top: 40px;
+  }
+
+  30% {
+    top: 60px;
+  }
+
+  35% {
+    top: 55px;
+  }
+
+  40% {
+    top: 75px;
+  }
+
+  45% {
+    top: 60px;
+  }
+
+  49% {
+    transform: scaleX(-1);
+    left: -20%;
+  }
+
+  50% {
+    top: 150px;
+    transform: scaleX(1);
+  }
+
+  60% {
+    top: 60px;
+  }
+
+  65% {
+    top: 40px;
+  }
+
+  70% {
+    top: 60px;
+  }
+
+  80% {
+    top: 55px;
+  }
+
+  85% {
+    top: 75px;
+  }
+
+  90% {
+    top: 60px;
+  }
+
+  99% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    left: 100%;
+    top: 150px;
+    transform: scaleX(-1);
+  }
+
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+
+  14% {
+    color: orange;
+  }
+
+  28% {
+    color: yellow;
+  }
+
+  42% {
+    color: green;
+  }
+
+  56% {
+    color: aqua;
+  }
+
+  70% {
+    color: blue;
+  }
+
+  84% {
+    color: rgb(169, 52, 169);
+  }
+
+  100% {
+    color: red;
+  }
+}
