@@ -29,6 +29,70 @@ h1 {
   animation: piaf 15s infinite linear;
 }
 
+.hover {
+  width: 100vw;
+  height: 90vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover .card {
+  width: 25%;
+  height: 45vh;
+  background-color: green;
+  padding: 2rem;
+  border-radius: 32px;
+  transition-property: background-color, width, height, font-size;
+  transition-duration: 1s;
+}
+
+.card:hover {
+  background-color: aqua;
+  width: 50%;
+  height: 80vh;
+  font-size: 3rem;
+  transition-property: background-color, width, height, font-size;
+  transition-duration: 1s;
+}
+
+.caroussel {
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.caroussel>.lists {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+  background-color: red;
+  display: flex;
+  animation: card 15s infinite linear;
+}
+
+.lists img {
+  width: 1080px;
+}
+
+
+@keyframes card {
+  0% {
+    left: O;
+  }
+
+  50% {
+    left: -3000px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
 @keyframes piaf {
   0% {
     left: 100%;
