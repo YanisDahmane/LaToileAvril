@@ -10,7 +10,7 @@ h1 {
 }
 
 .color-rainbow {
-  animation: 100s linear rainbow infinite;
+  animation: 10s linear rainbow infinite;
 }
 
 .sky {
@@ -44,6 +44,8 @@ h1 {
   background-color: green;
   padding: 2rem;
   border-radius: 32px;
+
+
   transition-property: background-color, width, height, font-size;
   transition-duration: 1s;
 }
@@ -60,6 +62,8 @@ h1 {
 .caroussel {
   width: 100vw;
   height: 90vh;
+
+
   overflow: hidden;
   position: relative;
 }
