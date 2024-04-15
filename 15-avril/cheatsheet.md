@@ -51,6 +51,21 @@ if (condition 1) {
 }
 ```
 
+## Les boucles
+
+### while
+On peut traduire par tant que suivis d'une condition
+
+```
+while(condition) {
+  // code a executer tant que la condition est vrai !
+}
+```
+
+Si jamais on veut sortir de la boucle avant que la condition soit rempli
+on peut utiliser `break`
+
+
 ## Affichage console
 
 ### Afficher une phrase
