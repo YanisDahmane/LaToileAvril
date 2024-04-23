@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  background-color: black;
+}
+
+td {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
+
+.active {
+  background-image: url('cars1.webp');
+  background-position: center;
+  background-size: 6rem;
+}
+
+.end {
+  background-image: url('fin.webp');
+  background-size: 10rem;
+}
