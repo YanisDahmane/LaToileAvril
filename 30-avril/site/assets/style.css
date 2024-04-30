@@ -1,0 +1,10 @@
+.articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.article {
+  background-color: aquamarine;
+  border-radius: 16px;
+}
