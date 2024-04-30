@@ -1,0 +1,10 @@
+@import url(carroussel.css);
+
+.section {
+  width: 90vw;
+  padding: 0 5vw;
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+}
